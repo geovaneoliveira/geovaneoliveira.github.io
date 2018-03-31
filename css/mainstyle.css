@@ -1,3 +1,14 @@
+a:link,
+a:active,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 .linha {
     width: 960px;
     margin: 0px auto;
@@ -58,7 +69,7 @@
 }
 
 .header{
-    background: #2E8B57;
+    background: #4682B4;
 }
 
 ul.inline li,
@@ -71,4 +82,10 @@ ol.inline {
     text-transform: uppercase;
     text-align: right;
     list-style: none;
+}
+
+h1.logo {
+    font-size: 250%;
+    color: white;
+    letter-spacing: 5px;
 }
