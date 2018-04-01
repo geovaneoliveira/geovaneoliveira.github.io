@@ -1,4 +1,14 @@
+/*
 
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 body {
     margin: 0;
@@ -14,7 +24,7 @@ header {
     height: 50px;
     margin: 0;
     border: 0;
-    background-color: #0067b8;
+    background-color: blue;
     font-weight: 600;
 }
 
@@ -70,7 +80,7 @@ header label:hover {
 
     .menu ul {
         position: absolute;
-        background-color: #0067b8;
+        background-color: blue;
         width: 40%;
         flex-direction: column;
         margin-left: -100%;
@@ -88,7 +98,7 @@ header label:hover {
 
 
 footer {
-    background-color: #0067b8;
+    background-color: blue;
     text-align: center;
     color: #efefef;
     font-size: 75%;
