@@ -5,12 +5,13 @@
 * {
     margin: 0;
     padding: 0;
-  /*  -webkit-box-sizing: border-box;
+    /*  -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;*/
 }
 
 body {
+        min-width: 320px;
     margin: 0;
     font-family: sans-serif;
 
@@ -24,25 +25,27 @@ header {
     height: 50px;
     margin: 0;
     border: 0;
-    background-color: blue;
+    background-color: #0067b8;
     font-weight: 600;
 }
 
 header h1 {
-    font-size: 150%;
+    float: right;
+    text-align: right
+    font-size: 100%;
     margin: 0;
     border: 0;
-    float: right;
     color: #efefef;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 0px;
 }
 
 header label {
+    text-align: center;
     color: #efefef;
-    font-size: 25px;
+    font-size: 30px;
     display: block;
     padding: 10px 10px;
-    width: 42px;
+    width: 35px;
     border-right: 1px solid #efefef;
     display: none;
 }
@@ -61,7 +64,6 @@ header label:hover {
 }
 
 .menu li a {
-    height: 50px;
     color: #efefef;
     text-decoration: none;
     padding: 15px 15px;
@@ -80,7 +82,7 @@ header label:hover {
 
     .menu ul {
         position: absolute;
-        background-color: blue;
+        background-color: #0067b8;
         width: 40%;
         flex-direction: column;
         margin-left: -100%;
@@ -98,7 +100,7 @@ header label:hover {
 
 
 footer {
-    background-color: blue;
+    background-color: #0067b8;
     text-align: center;
     color: #efefef;
     font-size: 75%;
@@ -114,7 +116,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 0 0px;
-        
+
 }
 
 @media (min-width: 1170px) {
@@ -161,9 +163,9 @@ footer {
     .col-2 {
         width: 50%;
     }
-    section .row{
+    section .row {
         display: flex;
-}
+    }
 }
 
 /* tres colunas */
@@ -171,6 +173,9 @@ footer {
 @media (min-width: 728px) {
     .col-3 {
         width: 33.3333%;
+    }
+        section .row {
+        display: flex;
     }
 }
 
@@ -184,6 +189,9 @@ footer {
     .col-sidebar {
         width: 40%;
     }
+        section .row {
+        display: flex;
+    }
 }
 
 
@@ -193,6 +201,4 @@ footer {
     padding: 5px;
     text-align: center;
     margin: 2px 0;
-    background-color: yellow;
-
 }
