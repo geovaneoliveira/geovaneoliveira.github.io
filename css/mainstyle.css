@@ -69,7 +69,7 @@ header label:hover {
     transition: all 0.6s;
 }
 
-.menu li a {
+.menu ul li a {
     color: #efefef;
     text-decoration: none;
     margin: 0;
@@ -78,7 +78,7 @@ header label:hover {
     border-left: 1px solid #efefef;
 }
 
-.menu li a:hover {
+.menu ul li a:hover {
     background-color: deepskyblue;
 }
 
@@ -110,6 +110,7 @@ header label:hover {
 
 section {
     padding: 10px 10px;
+
 }
 
 footer {
@@ -129,16 +130,11 @@ footer {
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px;
+    margin: auto;
 
 }
 
 
-@media (min-width: 1170px) {
-    .conteudo {
-        max-width: 1170px;
-        padding: 0;
-    }
-}
 
 /* linha */
 
@@ -193,28 +189,58 @@ footer {
 }
 
 /* sidebar */
-.sidebar{
+
+.sidebar {
     display: none;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+
+    
 }
-@media (min-width: 992px) {
+
+@media (min-width: 900px) {
     .col-conteudo {
-        width: 80%;
+        width: 85%;
     }
 
     .sidebar {
-        width: 20%;
+        width: 15%;
+        display: flex;
     }
     .conteudo .row {
-        display:flex;
+        display: flex;
     }
-    .sidebar{
-    display: flex;
-}
 }
 
+
+
 aside {
-    background-color: aliceblue;
+    margin: auto;
+    padding: 20px;
+    color: black;
+        background-color: azure;
+    border-radius: 10%;
 }
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside ul li a {
+    color: black;
+    margin: 0;
+    padding: 5px 5px;
+    display: block;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+
 
 /* USAR APENAS PARA DEMOSTRAÇÂO */
 
@@ -222,4 +248,15 @@ aside {
     padding: 5px;
     margin: 2px 0;
     text-align: justify;
+}
+
+article {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+article img {
+    border-radius: 20%;
+    float: left;
+    width: 80px;
 }
