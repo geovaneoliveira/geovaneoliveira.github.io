@@ -1,2 +1,2 @@
-# http://geovaneoliveira.github.io
+# geovaneoliveira.github.io
 um portfólio criado como atividade da matéria PWEB da Fatec Sorocaba
