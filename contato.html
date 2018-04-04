@@ -3,12 +3,79 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Portfolio - Geovane Vina de Oliveira</title>
+    <title>Portfolio - Geovane Viana de Oliveira</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/mainstyle.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-Em construção
+
+    <header>
+        <h1>Geovane Oliveira</h1>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu">&#9776;</label>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Hobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="conteudo">
+        <div class="posheader">
+            <em>
+                    <p>Esta página é um trabalho referente à disciplina Progração para Web do Curso de Tecnologia em Análise e Desenvolvimento de Sistemas, da Faculdade de Tecnologia de Sorocaba.</p>
+<p>Não é o propósito deste site ser um portfólio real, ainda que as informações prestadas sejam em quase sua totalidade verdadeira.</p></em>
+        </div>
+        <div class="row">
+            <section class="pagecontato">
+                <div class="row">
+                    <div class="col col-2">
+                        <h3>Localização</h3>
+                        <img src="img/mapa.jpg" alt="">
+                        <ul class="sem-estilo">
+                            <li>Sorocaba-SP</li>
+                        </ul>
+                        <h3>Contato direto</h3>
+                        <ul class="sem-estilo">
+                            <li>Fone: <strong>(15) 9601-9552</strong></li>
+                            <li>Email: <strong>geovane_viana@yahoo.com.br</strong></li>
+                            <li>Skype: <strong>gvianaoliveira</strong></li>
+                        </ul>
+                    </div>
+                    <div class="col col-2 contato">
+                        <h2>Envie uma mensagem</h2>
+                        <form action="">
+                            <label for="nome">Seu nome:</label>
+                            <input type="text" name="nome" id="nome" />
+
+                            <label for="email">Seu email:</label>
+                            <input type="text" name="email" id="email" />
+
+                            <label for="assunto">Assunto:</label>
+                            <input type="text" name="assunto" id="assunto" />
+
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="mensagem" id="email"></textarea>
+
+                            <input type="submit" class="botao" name="enviar" value="Enviar mensagem &raquo;" />
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <p>Portfólio PWEB: Geovane Viana de Oliveira</p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
